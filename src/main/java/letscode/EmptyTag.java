@@ -12,6 +12,7 @@ public class EmptyTag extends TagSupport {
         JspWriter out =pageContext.getOut();
         try {
             out.print(LocalDateTime.now());
+            out.print("<br/>");
         } catch (IOException e) {
             throw new JspException(e);
         }

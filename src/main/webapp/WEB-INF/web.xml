@@ -28,6 +28,6 @@
     </welcome-file-list>
     <taglib>
         <taglib-uri>tags</taglib-uri>
-        <taglib-Location>/WEB-INF/tags.tld</taglib-Location>
+        <taglib-location>/WEB-INF/tags.tld</taglib-location>
     </taglib>
 </web-app>
